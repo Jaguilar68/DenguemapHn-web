@@ -1,0 +1,6 @@
+{
+  "name": "DenguemapHN",
+  "description": "Predictive dengue outbreak mapping system using atmospheric data and advanced algorithms for epidemiological surveillance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
