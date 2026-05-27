@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Wind, Thermometer, Droplets } from 'lucide-react';
+import { APP_URL } from '../lib/utils';
 
 export default function Hero() {
   return (
@@ -35,7 +36,7 @@ export default function Hero() {
         >
           <motion.a
             whileHover={{ x: 5 }}
-            href={`${(import.meta.env.VITE_APP_URL || '').replace(/\/$/, '')}/login`}
+            href={`${APP_URL}/login`}
             className="group flex items-center gap-2 rounded-xl bg-tech-green px-8 py-4 text-lg font-bold text-black transition-all hover:bg-tech-green-dark"
           >
             Plataforma Predictiva
