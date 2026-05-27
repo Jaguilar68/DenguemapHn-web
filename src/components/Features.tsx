@@ -1,44 +1,5 @@
 import { motion } from 'motion/react';
-import { Cpu, Wind, Droplets, Thermometer, Database, Zap } from 'lucide-react';
-
-const TECH_FEATURES = [
-  {
-    title: 'Modelado Térmico',
-    desc: 'Análisis de rangos óptimos de temperatura para el ciclo biológico del vector.',
-    icon: Thermometer,
-    color: 'text-tech-green'
-  },
-  {
-    title: 'Higrometría Avanzada',
-    desc: 'Monitoreo de humedad relativa para predecir la longevidad del mosquito adulto.',
-    icon: Droplets,
-    color: 'text-tech-green'
-  },
-  {
-    title: 'Dinámica de Vientos',
-    desc: 'Estudio de corrientes de aire que facilitan el desplazamiento del vector en zonas urbanas.',
-    icon: Wind,
-    color: 'text-tech-green'
-  },
-  {
-    title: 'Patrones Geográficos',
-    desc: 'Que detectan potencialmente sitios de riesgo para la poblacion en un area determinada.',
-    icon: Cpu,
-    color: 'text-orange-500'
-  },
-  {
-    title: 'Base de Datos Integrada',
-    desc: 'Procesamiento puntos de riesgo masivos de datos terrestres y espaciales.',
-    icon: Database,
-    color: 'text-orange-500'
-  },
-  {
-    title: 'Alertas Tempranas',
-    desc: 'Generación automática de alertas para autoridades de salud estatal y municipal.',
-    icon: Zap,
-    color: 'text-tech-green'
-  }
-];
+import { TECH_FEATURES } from '../config/site';
 
 export default function Features() {
   return (

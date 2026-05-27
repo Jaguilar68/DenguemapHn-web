@@ -35,7 +35,7 @@ export default function Footer() {
               <li><a href="#map" className="text-white/60 hover:text-tech-green transition-colors">Mapa Predictivo</a></li>
               <li><a href="#features" className="text-white/60 hover:text-tech-green transition-colors">Algoritmos</a></li>
               <li><a href="#sdg" className="text-white/60 hover:text-tech-green transition-colors">Sostenibilidad</a></li>
-              <li><a href="/login" className="flex items-center gap-2 text-white/60 hover:text-tech-green transition-colors">
+              <li><a href={`${(import.meta.env.VITE_APP_URL || '').replace(/\/$/, '')}/login`} className="flex items-center gap-2 text-white/60 hover:text-tech-green transition-colors">
                 <LayoutDashboard size={14} /> Panel de Control
               </a></li>
             </ul>
@@ -46,7 +46,7 @@ export default function Footer() {
             <motion.a
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              href="/login"
+              href={`${(import.meta.env.VITE_APP_URL || '').replace(/\/$/, '')}/login`}
               className="block w-full rounded-xl bg-white p-4 text-center text-sm font-black uppercase text-black transition-colors hover:bg-tech-green"
             >
               Iniciar Sesión

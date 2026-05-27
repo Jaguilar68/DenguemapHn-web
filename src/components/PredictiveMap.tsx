@@ -1,14 +1,6 @@
 import { motion } from 'motion/react';
 import { MapPin, Info } from 'lucide-react';
-
-const RISK_LOCATIONS = [
-  { id: 1, name: 'San Pedro Sula', risk: 'high', x: '25%', y: '30%' },
-  { id: 2, name: 'Tegucigalpa', risk: 'high', x: '40%', y: '65%' },
-  { id: 3, name: 'La Ceiba', risk: 'medium', x: '45%', y: '20%' },
-  { id: 4, name: 'Choluteca', risk: 'medium', x: '35%', y: '85%' },
-  { id: 5, name: 'Copán Ruinas', risk: 'low', x: '10%', y: '45%' },
-  { id: 6, name: 'Roatán', risk: 'low', x: '70%', y: '10%' },
-];
+import { RISK_LOCATIONS } from '../config/site';
 
 const RISK_COLORS = {
   high: 'bg-red-500 shadow-red-500/50',

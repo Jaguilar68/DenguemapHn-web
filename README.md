@@ -75,7 +75,9 @@ npm run build
 - No incluir secretos en el frontend. Guardarlos en las variables de entorno del hosting o en el gestor de secretos (Supabase, Vercel dashboard).
 
 Ejemplos:
-- `SUPABASE_URL`, `SUPABASE_ANON_KEY` (solo para cliente), `SUPABASE_SERVICE_ROLE_KEY` (solo server)
+- `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` (necesarios para la conexión del cliente con Supabase)
+- `VITE_APP_URL` — URL de la aplicación funcional (ej. https://app.denguemaphn.com)
+- `SUPABASE_SERVICE_ROLE_KEY` (solo para uso en servidor o Edge Functions; nunca exponer en el cliente)
 
 ## Comprobaciones recomendadas después de cambios
 - Ejecutar `npx tsc --noEmit` para detectar errores de tipos.
@@ -83,4 +85,4 @@ Ejemplos:
 
 ## Próximos pasos sugeridos
 - Mover las funciones de cálculo a Edge Functions y configurar una cola para tareas largas.
-- Añadir pruebas unitarias y e2e para el flujo completo (pago → webhook → registro).
+- Añadir pruebas unitarias y e2e para el flujo completo de autenticación y visualización de datos.
