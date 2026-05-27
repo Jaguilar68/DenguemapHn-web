@@ -13,6 +13,7 @@ Este repositorio contiene la aplicación web cliente (Vite + React + Tailwind) u
 ## Estructura del proyecto
 - `src/` — código fuente de la UI (React + TypeScript)
 - `src/components/` — componentes reutilizables (incluye `PredictiveMap.tsx`)
+- `src/vite-env.d.ts` — definiciones de tipos para variables de entorno
 - `lib/` — utilidades del proyecto
 - `package.json`, `tsconfig.json`, `vite.config.ts`
 
