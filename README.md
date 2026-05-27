@@ -50,15 +50,6 @@ npm run build
 - Se identificó un error de tipos TypeScript relacionado con JSX y `react/jsx-runtime`. Solución recomendada aplicada localmente: instalar dependencias de tipos (`@types/react`, `@types/react-dom`) y verificar `tsconfig.json` con `"jsx": "react-jsx"`.
 - Recomendación de Tailwind: reemplazar `aspect-[16/9]` por `aspect-video` cuando sea apropiado para seguir convenciones.
 
-## Flujo de pago y registro (diseño actual)
-
-1. Usuario en la UI hace click en un botón y es redirigido a la página de pago (proveedor externo: Stripe, PayPal, etc.).
-2. Tras pago, el proveedor llama a un webhook en el backend de la aplicación (server-side) para validar la transacción de forma segura.
-3. Una vez verificado el pago por el backend, se crea/activa la cuenta del usuario en Supabase (o se marca como elegible para registro).
-4. Usuario es redirigido al flujo de login/registro en la UI y puede autenticarse con Supabase.
-
-> Nota de seguridad: la verificación del pago debe hacerse siempre server-side (webhook firmado) antes de crear o activar usuarios.
-
 ## Dónde alojar las funciones de cálculo (recomendaciones)
 
 - Recomendación principal: **Supabase Edge Functions**. Ventajas:
@@ -85,23 +76,11 @@ npm run build
 
 Ejemplos:
 - `SUPABASE_URL`, `SUPABASE_ANON_KEY` (solo para cliente), `SUPABASE_SERVICE_ROLE_KEY` (solo server)
-- `PAYMENT_PROVIDER_SECRET` (solo server)
 
 ## Comprobaciones recomendadas después de cambios
 - Ejecutar `npx tsc --noEmit` para detectar errores de tipos.
 - Verificar estilos y clases de Tailwind en la UI.
 
 ## Próximos pasos sugeridos
-- Implementar la página de pagos y configurar el webhook server-side.
 - Mover las funciones de cálculo a Edge Functions y configurar una cola para tareas largas.
 - Añadir pruebas unitarias y e2e para el flujo completo (pago → webhook → registro).
-
----
-
-En la carpeta `examples/` encontrarás dos plantillas en español:
-
-- `examples/stripe-express-webhook/` — ejemplo de webhook en Express para Stripe y README con pasos de ejecución.
-- `examples/supabase-edge/` — plantilla de Supabase Edge Function (TypeScript) para validar webhooks y activar cuentas en Supabase.
-
-Si quieres, puedo desplegar o adaptar cualquiera de estos ejemplos a tu proveedor preferido.
-

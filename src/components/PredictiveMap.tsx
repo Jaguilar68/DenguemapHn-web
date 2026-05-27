@@ -22,7 +22,7 @@ export default function PredictiveMap() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-5xl">Mapa Predictivo en Tiempo Real</h2>
-          <p className="mt-4 text-white/50">Identificación y clasificación de sitios de riesgo basada en patrones atmosféricos.</p>
+          <p className="mt-4 text-white/50">Identificación y clasificación de sitios de reproduccion y riesgo de contagio.</p>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-3">

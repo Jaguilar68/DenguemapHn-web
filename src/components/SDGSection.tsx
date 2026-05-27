@@ -10,7 +10,7 @@ export default function SDGSection() {
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-black italic tracking-tighter uppercase leading-none md:text-7xl">
+            <h2 className="text-4xl font-black italic tracking-tighter uppercase leading-none md:text-6xl">
               Compromiso con el <span className="text-tech-green">Planeta</span>
             </h2>
             <p className="mt-8 text-lg text-white/50 leading-relaxed max-w-xl">

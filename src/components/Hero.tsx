@@ -17,10 +17,10 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
         >
           <span className="mb-4 inline-block rounded-full border border-tech-green/30 bg-tech-green/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-tech-green">
-            Novedoso Sistema de Vigilancia Epidemiológica
+            Moderno Sistema de Vigilancia Epidemiológica
           </span>
-          <h1 className="mb-6 text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
-            Anticipando el <span className="text-tech-green">Dengue</span> con Precisión Atmosférica
+          <h1 className="mb-6 text-5xl font-extrabold tracking-tight md:text-7xl lg:text-7xl">
+            Predicción <span className="text-tech-green">Climática Inteligente </span> Contra el <span className="text-tech-green">Dengue</span>
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-lg text-white/60 md:text-xl">
             Vigilancia inteligente basada en temperatura, humedad y vientos. Algoritmos avanzados de última generación para proteger la salud y el medio ambiente.
@@ -45,11 +45,11 @@ export default function Hero() {
           <div className="flex items-center gap-6 px-4 py-2 text-white/40">
             <div className="flex items-center gap-2">
               <Thermometer size={18} />
-              <span className="text-sm font-medium">Temp</span>
+              <span className="text-sm font-medium">Temperatura</span>
             </div>
             <div className="flex items-center gap-2">
               <Droplets size={18} />
-              <span className="text-sm font-medium">Hum</span>
+              <span className="text-sm font-medium">Humedad</span>
             </div>
             <div className="flex items-center gap-2">
               <Wind size={18} />

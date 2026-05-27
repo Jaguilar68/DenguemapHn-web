@@ -22,13 +22,13 @@ const TECH_FEATURES = [
   },
   {
     title: 'Patrones Geográficos',
-    desc: 'Que detectan potencialmente sitios de riesgo en un area determinada.',
+    desc: 'Que detectan potencialmente sitios de riesgo para la poblacion en un area determinada.',
     icon: Cpu,
     color: 'text-orange-500'
   },
   {
     title: 'Base de Datos Integrada',
-    desc: 'Procesamiento puntos de riesgo masivos de datos terrestres.',
+    desc: 'Procesamiento puntos de riesgo masivos de datos terrestres y espaciales.',
     icon: Database,
     color: 'text-orange-500'
   },
