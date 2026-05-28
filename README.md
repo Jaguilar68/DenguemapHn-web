@@ -8,7 +8,8 @@ Este repositorio contiene la aplicación web cliente (Vite + React + Tailwind) u
 
 **Resumen rápido:** la interfaz pública se despliega en un hosting estático (por ejemplo, Vercel). La base de datos y la autenticación están en Supabase. Las funciones que realizan cálculos o que requieren credenciales/secreto deben alojarse en un backend seguro (recomendado: Supabase Edge Functions).
 
-**Enlace de la app (si aplica):** (añade aquí tu URL de despliegue)
+**Landing Page:** [https://denguemap-hn.com](https://denguemap-hn.com)
+**Plataforma App:** [https://app.denguemap-hn.com](https://app.denguemap-hn.com)
 
 ## Estructura del proyecto
 - `src/` — código fuente de la UI (React + TypeScript)
@@ -76,7 +77,19 @@ npm run build
 - No incluir secretos en el frontend. Guardarlos en las variables de entorno del hosting o en el gestor de secretos (Supabase, Vercel dashboard).
 
 **Requeridas para este proyecto:**
-- `VITE_APP_URL` — URL de la aplicación funcional (ej. https://app.denguemap-hn.com). Se utiliza para redirigir a los usuarios desde los botones de acceso.
+- `VITE_APP_URL` — URL de la aplicación funcional. Para este proyecto es: `https://app.denguemap-hn.com`
+
+## Configuración de Conexión (Vercel + Supabase)
+
+1. **Vercel Dashboard (Landing):**
+   - Ir a Settings > Environment Variables.
+   - Agregar `VITE_APP_URL` con valor `https://app.denguemap-hn.com`.
+   - Realizar un **Redeploy** para aplicar cambios.
+
+2. **Supabase Dashboard (Auth):**
+   - Ir a Authentication > URL Configuration.
+   - **Site URL**: `https://app.denguemap-hn.com`
+   - **Redirect URLs**: Agregar `https://denguemap-hn.com/**` y `https://app.denguemap-hn.com/**`.
 
 ## Comprobaciones recomendadas después de cambios
 - Ejecutar `npx tsc --noEmit` para detectar errores de tipos.
