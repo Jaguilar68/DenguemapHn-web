@@ -11,7 +11,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <div className="flex items-center gap-2">
-          <span className="text-xl font-bold tracking-tighter">Denguemap-<span className="text-tech-green">HN</span></span>
+          <span className="text-xl font-bold tracking-tighter" translate="no">denguemap-<span className="text-tech-green">hn</span></span>
         </div>
         
         <div className="hidden items-center gap-8 md:flex">
