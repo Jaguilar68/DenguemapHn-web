@@ -77,7 +77,9 @@ npm run build
 - No incluir secretos en el frontend. Guardarlos en las variables de entorno del hosting o en el gestor de secretos (Supabase, Vercel dashboard).
 
 **Requeridas para este proyecto:**
-- `VITE_APP_URL` — URL de la aplicación funcional. Para este proyecto es: `https://app.denguemap-hn.com`
+- `VITE_APP_URL` — URL de la aplicación funcional (ej. `https://app.denguemap-hn.com`)
+- `VITE_SUPABASE_URL` — URL de tu proyecto Supabase.
+- `VITE_SUPABASE_ANON_KEY` — Clave pública (anon) de Supabase.
 
 ## Configuración de Conexión (Vercel + Supabase)
 
