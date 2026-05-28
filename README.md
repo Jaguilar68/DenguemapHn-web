@@ -75,10 +75,8 @@ npm run build
 ## Variables de entorno y secretos
 - No incluir secretos en el frontend. Guardarlos en las variables de entorno del hosting o en el gestor de secretos (Supabase, Vercel dashboard).
 
-Ejemplos:
-- `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` (necesarios para la conexión del cliente con Supabase)
-- `VITE_APP_URL` — URL de la aplicación funcional (ej. https://app.denguemaphn.com)
-- `SUPABASE_SERVICE_ROLE_KEY` (solo para uso en servidor o Edge Functions; nunca exponer en el cliente)
+**Requeridas para este proyecto:**
+- `VITE_APP_URL` — URL de la aplicación funcional (ej. https://app.denguemap-hn.com). Se utiliza para redirigir a los usuarios desde los botones de acceso.
 
 ## Comprobaciones recomendadas después de cambios
 - Ejecutar `npx tsc --noEmit` para detectar errores de tipos.
