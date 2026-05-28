@@ -14,7 +14,7 @@ export default function SDGSection() {
               Compromiso con el <span className="text-tech-green">Planeta</span>
             </h2>
             <p className="mt-8 text-lg text-white/50 leading-relaxed max-w-xl">
-              DenguemapHN no es solo software; es un aliado de los Objetivos de Desarrollo Sostenible (ODS). Trabajamos activamente por un futuro más saludable y resiliente ante el cambio climático.
+              Denguemap-HN no es solo software; es un aliado de los Objetivos de Desarrollo Sostenible (ODS). Trabajamos activamente por un futuro más saludable y resiliente ante el cambio climático.
             </p>
             
             <div className="mt-12 flex flex-wrap gap-4">

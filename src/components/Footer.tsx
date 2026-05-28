@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded bg-tech-green text-black">
                 <Shield size={20} />
               </div>
-              <span className="text-xl font-bold tracking-tighter uppercase italic">Denguemap<span className="text-tech-green">HN</span></span>
+              <span className="text-xl font-bold tracking-tighter uppercase italic">Denguemap-<span className="text-tech-green">HN</span></span>
             </div>
             <p className="max-w-md text-white/40 leading-relaxed text-sm">
               Tecnología avanzada para la prevención y vigilancia del dengue basada en modelos climáticos y algoritmos inteligentes de alta precisión.
@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] font-medium tracking-widest text-white/20 uppercase">
-            © 2026 DENGUEMAPHN. TODOS LOS DERECHOS RESERVADOS.
+            © 2026 DENGUEMAP-HN. TODOS LOS DERECHOS RESERVADOS.
           </p>
           <div className="flex gap-8">
             <a href="#" className="text-[10px] font-medium tracking-widest text-white/20 hover:text-white transition-colors uppercase">Privacidad</a>

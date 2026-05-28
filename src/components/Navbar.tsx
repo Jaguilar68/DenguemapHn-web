@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-tech-green text-black">
             <Shield size={24} />
           </div>
-          <span className="text-xl font-bold tracking-tighter">Denguemap<span className="text-tech-green">HN</span></span>
+          <span className="text-xl font-bold tracking-tighter">Denguemap-<span className="text-tech-green">HN</span></span>
         </div>
         
         <div className="hidden items-center gap-8 md:flex">
