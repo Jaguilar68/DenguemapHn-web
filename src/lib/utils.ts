@@ -1,7 +1,5 @@
 const rawUrl = import.meta.env.VITE_APP_URL || '';
 
-if (import.meta.env.DEV) {
-  console.log("Conectando a la App en:", rawUrl);
-}
+console.log("DengueMap Debug - URL de la App:", rawUrl || "No definida");
 
 export const APP_URL = rawUrl.replace(/\/$/, '');
