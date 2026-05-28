@@ -26,7 +26,7 @@ export default function Navbar() {
         <motion.a
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          href={`${APP_URL}/login`}
+          href={APP_URL}
           className="flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-colors hover:bg-tech-green"
         >
           <LayoutDashboard size={18} />

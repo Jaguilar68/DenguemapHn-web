@@ -36,7 +36,7 @@ export default function Hero() {
         >
           <motion.a
             whileHover={{ x: 5 }}
-            href={`${APP_URL}/login`}
+            href={APP_URL}
             className="group flex items-center gap-2 rounded-xl bg-tech-green px-8 py-4 text-lg font-bold text-black transition-all hover:bg-tech-green-dark"
           >
             Plataforma Predictiva
