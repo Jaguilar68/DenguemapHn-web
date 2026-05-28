@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Shield, LayoutDashboard, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { LayoutDashboard, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { APP_URL } from '../lib/utils';
 
 export default function Footer() {
@@ -9,9 +9,6 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <div className="flex h-8 w-8 items-center justify-center rounded bg-tech-green text-black">
-                <Shield size={20} />
-              </div>
               <span className="text-xl font-bold tracking-tighter uppercase italic">Denguemap-<span className="text-tech-green">HN</span></span>
             </div>
             <p className="max-w-md text-white/40 leading-relaxed text-sm">
