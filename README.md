@@ -2,9 +2,9 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# DengueMap-HN — Aplicación Web Predictiva
+# DengueMap-Hn — Aplicación Web Predictiva
 
-Este repositorio contiene la aplicación web cliente (Vite + React + Tailwind) usada como ventana de entrada al sistema de predicción y visualización de riesgo.
+Este repositorio contiene la landing page (Vite + React + Tailwind) que sirve como portal de entrada al ecosistema de predicción y vigilancia de dengue.
 
 **Resumen rápido:** la interfaz pública se despliega en un hosting estático (por ejemplo, Vercel). La base de datos y la autenticación están en Supabase. Las funciones que realizan cálculos o que requieren credenciales/secreto deben alojarse en un backend seguro (recomendado: Supabase Edge Functions).
 
