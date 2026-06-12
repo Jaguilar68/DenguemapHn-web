@@ -30,19 +30,19 @@ export const TECH_FEATURES = [
   },
   {
     title: 'Patrones Geográficos',
-    desc: 'Que detectan potencialmente sitios de riesgo para la poblacion en un area determinada.',
+    desc: 'Identificación geoespacial de zonas críticas y factores de riesgo para la población en áreas específicas.',
     icon: Cpu,
     color: 'text-orange-500'
   },
   {
     title: 'Base de Datos Integrada',
-    desc: 'Procesamiento puntos de riesgo masivos de datos terrestres y espaciales.',
+    desc: 'Procesamiento masivo de datos espaciales y registros de terreno para la determinación de puntos de riesgo.',
     icon: Database,
     color: 'text-orange-500'
   },
   {
     title: 'Alertas Tempranas',
-    desc: 'Generación automática de alertas para autoridades de salud estatal y municipal.',
+    desc: 'Predicciones georreferenciadas de brotes para guiar la toma de decisiones y acciones de control en salud pública.',
     icon: Zap,
     color: 'text-tech-green'
   }

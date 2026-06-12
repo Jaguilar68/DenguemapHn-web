@@ -13,10 +13,9 @@ export default function PredictiveMap() {
     <section id="map" className="py-24 px-6 bg-deep-bg">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold tracking-tight md:text-5xl">Mapa Predictivo en Tiempo Real</h2>
-          <p className="mt-4 text-white/50">Identificación y clasificación de sitios de reproduccion y riesgo de contagio.</p>
+          <h2 className="text-3xl font-bold tracking-tight md:text-5xl">Análisis Predictivo Y Mapa Dinámico Hotspots</h2>
+          <p className="mt-4 text-white/50">"Algoritmos inteligentes en tiempo real para la identificación y clasificación de criaderos y zonas de riesgo de contagio".</p>
         </div>
-
         <div className="grid gap-12 lg:grid-cols-3">
           <div className="lg:col-span-2">
             <div className="relative aspect-video w-full overflow-hidden rounded-3xl border border-white/10 bg-black shadow-2xl">
@@ -77,7 +76,7 @@ export default function PredictiveMap() {
               </div>
               <h3 className="text-xl font-bold italic">Vigilancia Focalizada</h3>
               <p className="mt-2 text-sm leading-relaxed text-white/50">
-                Nuestro sistema identifica geográficamente los focos de calor y humedad donde el <em className="text-tech-green">Aedes aegypti</em> tiene mayor probabilidad de proliferación.
+                Nuestro sistema identifica geográficamente los focos de calor y humedad donde el <em className="text-tech-green">Aedes aegypti</em> presenta mayor probabilidad de proliferación.
               </p>
             </div>
 

@@ -21,10 +21,10 @@ export default function Hero() {
             Moderno Sistema de Vigilancia Epidemiológica
           </span>
           <h1 className="mb-6 text-5xl font-extrabold tracking-tight md:text-7xl lg:text-7xl">
-            Predicción <span className="text-tech-green">Climática Inteligente </span> Contra el <span className="text-tech-green">Dengue</span>
+            Mapas Inteligentes <span className="text-tech-green">con IA </span> Contra el <span className="text-tech-green">Dengue</span>
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-lg text-white/60 md:text-xl">
-            Vigilancia inteligente basada en temperatura, humedad y vientos. Algoritmos avanzados de última generación para proteger la salud y el medio ambiente.
+            "Predicción del comportamiento del vector mediante alertas tempranas y análisis climático para su prevención y control"
           </p>
         </motion.div>
 

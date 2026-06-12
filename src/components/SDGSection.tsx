@@ -35,25 +35,25 @@ export default function SDGSection() {
               className="aspect-square flex flex-col justify-center items-center bg-tech-green/10 border border-tech-green/10 rounded-[3rem] p-8 text-center gap-4"
             >
               <Heart className="text-tech-green" size={48} />
-              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">Protección Humana</p>
+              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">SALUD ADAPTATIVA</p>
             </motion.div>
             <motion.div
               whileHover={{ y: -10 }}
               className="aspect-square translate-y-8 flex flex-col justify-center items-center bg-tech-green/10 border border-tech-green/10 rounded-[3rem] p-8 text-center gap-4"
             >
               <Trees className="text-tech-green" size={48} />
-              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">Eco-Vigilancia</p>
+              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">VIGILANCIA ECO-AMBIENTAL</p>
             </motion.div>
             <motion.div
               whileHover={{ y: -10 }}
               className="aspect-square -translate-y-4 flex flex-col justify-center items-center bg-tech-green/10 border border-tech-green/10 rounded-[3rem] p-8 text-center gap-4"
             >
               <Globe className="text-tech-green" size={48} />
-              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">Escalabilidad Global</p>
+              <p className="text-xs font-bold uppercase text-white/40 tracking-widest">SISTEMA ESCALABLE</p>
             </motion.div>
             <div className="aspect-square bg-tech-green rounded-[3rem] p-8 flex items-end justify-start overflow-hidden relative">
                <span className="text-black font-black text-6xl opacity-20 absolute -top-4 -right-4">SDG</span>
-               <p className="text-black font-bold text-sm leading-tight relative z-10">Métrica de impacto real en comunidades vulnerables.</p>
+               <p className="text-gray-800 font-bold text-sm leading-tight relative z-10">IMPACTO SOCIAL Monitoreo y métricas de riesgo real para mitigar la vulnerabilidad en las comunidades más afectadas.</p>
             </div>
           </div>
         </div>

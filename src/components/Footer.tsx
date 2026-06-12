@@ -57,7 +57,9 @@ export default function Footer() {
 
         <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] font-medium tracking-widest text-white/20 uppercase" translate="no">
-            © 2026 DengueMap-Hn. todos los derechos reservados.
+            Desarrollado para la vigilancia epidemiológica en regiones endémicas. Primera fase implementada en Honduras.
+            <br />
+            © 2026 DengueMap-Hn. Todos los derechos reservados.
           </p>
           <div className="flex gap-8">
             <a href="#" className="text-[10px] font-medium tracking-widest text-white/20 hover:text-white transition-colors uppercase">Privacidad</a>
