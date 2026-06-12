@@ -56,7 +56,7 @@ export default function SDGSection() {
               className="aspect-square bg-tech-green rounded-[3rem] p-8 flex items-end justify-start overflow-hidden relative"
             >
               <span className="text-black font-black text-5xl opacity-20 absolute -top-4 -right-4">SDG</span>
-              <p className="text-gray-800 font-bold text-sm leading-tight relative z-10">IMPACTO SOCIAL Monitoreo de métricas de riesgo y vulnerabilidad en las comunidades más afectadas.</p>
+              <p className="text-gray-800 font-bold text-sm leading-tight relative z-10">IMPACTO SOCIAL Monitoreo de métricas de riesgo en las comunidades más afectadas.</p>
             </motion.div>
           </div>
         </div>
